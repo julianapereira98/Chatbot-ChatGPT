@@ -2,9 +2,10 @@
 
 # Imports
 import openai
+from config import OPENAI_API_KEY
 
 # Key
-openai.api_key = "token_openai"
+openai.api_key = OPENAI_API_KEY
 
 # Função para gerar texto a partir do modelo de linguagem
 def gera_texto(texto):
